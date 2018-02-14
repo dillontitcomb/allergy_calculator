@@ -10,12 +10,13 @@
       <div class="jumbotron">
         <h1>Allergen Calculator</h1>
       </div>
-      <h3>What's your allergen score?:</h3><br>
-      <form action="/results" method="post">
-        <label for="score">Number (0-255)</label>
-        <input type="number" name="score"><br>
-        <button type="submit" class="btn btn-success">Submit</button>
-      </form>
+      <h3>You have the following allergies:</h3>
+      <ul>
+          @foreach (var item in Model)
+          {
+            <li>@item</li>
+          }
+      </ul>
     </div>
   </body>
 </html>
