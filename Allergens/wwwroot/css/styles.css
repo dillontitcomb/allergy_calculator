@@ -1,7 +1,23 @@
 body {
-  background-color: black;
+  background-color: snow;
 }
 
 .jumbotron {
-  background-color: red;
+  background-color: darkgrey;
+}
+
+h1 {
+  color: hotpink;
+}
+
+li {
+  color: gold;
+}
+
+h3 {
+  color: brown;
+}
+
+label {
+  color: forestgreen;
 }
