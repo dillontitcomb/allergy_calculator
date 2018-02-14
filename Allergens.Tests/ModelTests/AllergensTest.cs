@@ -31,11 +31,5 @@ namespace Allergens.Tests
       Allergy newAllergy = new Allergy("pollen", 64);
       Assert.AreEqual(64, newAllergy.GetAllergyNumber());
     }
-    [TestMethod]
-    public void GetAllAllergies_ReturnAllergyList_List()
-    {
-      List<Allergy> allergiesList = Allergy.GetAllAllergies());
-      CollectionAssert.AreEqual(64, newAllergy.GetAllergyNumber());
-    }
   }
 }

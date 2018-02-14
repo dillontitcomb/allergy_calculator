@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
-    <link rel='stylesheet' href='~/css/styles.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css">
     <title>Allergens</title>
   </head>
   <body>
     <div class="container">
       <div class="jumbotron">
         <h1>Allergen Calculator</h1>
+        <h5>Input an allergen score.</h5>
       </div>
-      <h3>What's your allergen score?:</h3><br>
+      <h3>Based on the number you provide, your allergy profile will be revealed.</h3><br>
       <form action="/results" method="post">
         <label for="score">Number (0-255)</label>
-        <input type="number" name="score"><br>
+        <input type="number" name="score"><br><br>
         <button type="submit" class="btn btn-success">Submit</button>
       </form>
     </div>
