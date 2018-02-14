@@ -9,8 +9,7 @@ namespace Allergens.Controllers
         [HttpGet("/")]
         public ActionResult Index()
         {
-          List<Allergy> allAllergies = Allergy.GetAllAllergies();
-          return View(allAllergies);
+          return View();
         }
         [HttpPost("/results")]
         public ActionResult Results()
